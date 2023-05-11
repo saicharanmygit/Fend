@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css'; 
-
 import PortComposition from './components/Portfolio/PortComposition';
 import Theme from './components/Portfolio/Theme';
 import NewData from './components/Portfolio/NewData';
@@ -23,6 +22,7 @@ function App() {
       <Route path='/portfolioheader' element={<NewData onAddData={addPortfolioData}/>}></Route>
       <Route path='/theme' component={<Theme/>}></Route>
       <Route path='/portcomposition' element={<PortComposition/>}></Route>
+      <Route exact path='/portheader' element={<PortHeader/>}></Route>
       <Route exact path='/portheader' element={<PortHeader/>}></Route>
     </Routes>
 

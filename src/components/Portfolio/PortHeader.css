@@ -10,7 +10,7 @@
 
 .inter {
     height: 50px;
-    ;
+    /* margin-top: 20%; */
 }
 
 .right {
@@ -55,19 +55,16 @@
 .contact .p7 {
     margin-right: 62%;
     font-size: 20px;
-
 }
 
 .contact .p8 {
     margin-right: 69%;
     font-size: 20px;
-
 }
 
 .contact .p9 {
     margin-right: 92%;
     font-size: 20px;
-
 }
 .contact .Refreq{
     margin-right: 92%;
